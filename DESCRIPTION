@@ -1,5 +1,5 @@
 Package: abjDash
-Title: What the Package Does (One Line, Title Case)
+Title: Ferramentas uteis para producao de Dashbords da ABJ.
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "First",
