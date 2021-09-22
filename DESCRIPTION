@@ -35,5 +35,6 @@ Imports:
     rlang,
     scales,
     stringr,
+    survival,
     tibble,
     viridis
