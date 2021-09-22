@@ -2,7 +2,7 @@
 % Please edit documentation in R/custom_lab.R
 \name{custom_lab}
 \alias{custom_lab}
-\title{Helper para tratar milhares e milhões}
+\title{Helper para tratar milhares e milhoes}
 \usage{
 custom_lab(x, ..., dinheiro = TRUE)
 }
@@ -11,8 +11,8 @@ custom_lab(x, ..., dinheiro = TRUE)
 
 \item{...}{outros argumentos (não utilizado)}
 
-\item{dinheiro}{transformar em dinheiro? Por padrão sim}
+\item{dinheiro}{transformar em dinheiro? Por padrao sim}
 }
 \description{
-Helper para tratar milhares e milhões
+funcao que facilita o calculo de milhares e milhoes
 }

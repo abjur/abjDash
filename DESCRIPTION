@@ -1,16 +1,39 @@
 Package: abjDash
-Title: Ferramentas uteis para producao de Dashboards da ABJ.
+Title: Useful tools for producing ABJ Dashboards
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
-           role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    c(person(given = "Katerine",
+             family = "Witkoski",
+             role =  c("aut","cre"),
+             email = "kwitkoski@abj.org.br",
+             comment = c(ORCID = "0000-0002-3691-6569")),
+      person(given = "Renata",
+             family = "Hirota",
+             role = "aut",
+             email = "rhirota@abj.org.br"),
+      person(given = "Associação Brasileira de Jurimetria",    
+             role = c("cph", "fnd")))
+Description: The Brazilian Jurimetrics Association (ABJ in
+    English, see <https://abj.org.br/> for more information) is
+    a non-profit organization which aims to investigate and promote the
+    use of statistics and probability in the study of Law and its
+    institutions. This package implements useful tools for ABJ dashboards.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Imports: 
+    broom,
+    dplyr,
+    forcats,
+    ggplot2,
+    highcharter,
+    magrittr,
+    purrr,
+    reactable,
+    rlang,
+    scales,
+    stringr,
+    tibble,
+    viridis
