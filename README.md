@@ -18,8 +18,8 @@ dashboards.
 Você pode instalar a versão mais recente do {abjDash} com:
 
     # Para instalar a versão GitHub (dev)
-    install.packages("devtools")
-    devtools::install_github("abjur/abjDash")
+    install.packages("remotes")
+    remotes::install_github("abjur/abjDash")
 
 ### Lista de funções
 
