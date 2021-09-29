@@ -2,7 +2,7 @@
 % Please edit documentation in R/barras_empilhadas.R
 \name{barras_empilhadas}
 \alias{barras_empilhadas}
-\title{Graficos de barras do tipo highcharter por grupo}
+\title{Graficos de colunas do tipo highcharter por grupo}
 \usage{
 barras_empilhadas(da, grupo, tipo = "column")
 }

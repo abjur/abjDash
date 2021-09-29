@@ -1,12 +1,12 @@
 #' Ferramenta para facilitar o calculo de tempos por ano
 #' @name tempo_lab_one
-#' @description funcao ajuda calcular tempos
-#' @param x coluna
+#' @description funcao que ajuda calcular tempos
+#' @param numeric_expression coluna
 #'
 #' @export
-tempo_lab_one <- function(x) {
-  ano <- floor(x)
-  mes <- round((x %% 1) * 12)
+tempo_lab_one <- function(numeric_expression) {
+  ano <- floor(numeric_expression)
+  mes <- round((numeric_expression %% 1) * 12)
   ano_s <- dplyr::if_else(ano > 1, "s", "")
   if (mes == 12) {
     ano <- ano + 1

@@ -4,11 +4,11 @@
 \alias{histograma}
 \title{Histograma do tipo highcharter}
 \usage{
-histograma(v)
+histograma(valor)
 }
 \arguments{
-\item{v}{valores}
+\item{valor}{valor}
 }
 \description{
-funcao que cria grafico dinamico
+funcao que cria grafico dinamico de histograma
 }

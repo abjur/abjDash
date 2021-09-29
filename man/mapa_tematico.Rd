@@ -4,10 +4,10 @@
 \alias{mapa_tematico}
 \title{Mapas tematicos com reais e proporcao}
 \usage{
-mapa_tematico(da)
+mapa_tematico(data)
 }
 \arguments{
-\item{da}{base}
+\item{data}{base}
 }
 \description{
 funcao que cria mapa dinamico

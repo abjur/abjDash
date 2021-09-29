@@ -10,5 +10,5 @@ grafico_km(m)
 \item{m}{modelo}
 }
 \description{
-funcao que cria grafico no modelo de sobrevivendia Kaplan-meier
+funcao que cria grafico no modelo de sobrevivencia Kaplan-meier
 }

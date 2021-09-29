@@ -1,4 +1,4 @@
-#' Graficos de barras do tipo highcharter por grupo
+#' Graficos de colunas do tipo highcharter por grupo
 #' @name barras_empilhadas
 #' @description funcao que cria grafico dinamico
 #' @param da base

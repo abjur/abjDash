@@ -1,6 +1,6 @@
 #' Grafico Kaplan-meier de modelo de sobrevivencia
 #' @name grafico_km
-#' @description funcao que cria grafico no modelo de sobrevivendia Kaplan-meier
+#' @description funcao que cria grafico no modelo de sobrevivencia Kaplan-meier
 #' @param m modelo
 #'
 #' @export

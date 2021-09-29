@@ -1,12 +1,12 @@
 #' Funcao de define reais
 #' @name reais
 #' @description funcao que cria ferramenta para definir reais
-#' @param x numero
+#' @param numero vetor numérico para formatar
 #'
 #' @export
-reais <- function(x) {
+reais <- function(numero) {
   scales::dollar(
-    x,
+    numero,
     prefix = "R$ ",
     big.mark = ".",
     decimal.mark = ","

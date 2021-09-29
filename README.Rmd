@@ -35,8 +35,36 @@ remotes::install_github("abjur/abjDash")
 
 Função  | Descrição
 -------------|------------
-`pizza`   | funcao que cria grafico dinamico de pizza 
-`pct()`   | .....  
+`barras_empilhadas`   | Função que cria gráfico dinâmico de colunas por grupo.
+`barras_prop`   | Função que cria gráfico dinâmico de barras com proporção.
+ `barras` | Função que cria gráfico dinâmico de barras.
+`calcular_estatisticas`   | Função que ajuda calcular medias e medianas por intervalo.
+`create_theme_css`   | Função que cria tema CSS para os Dashboards. 
+`custom_lab`   | Função que facilita o cálculo de milhares e milhões.
+`get_median`   | Função que ajuda pegar a mediana de processos por tempo baseada no processo
+`grafico_km`   | Função que cria gráfico no modelo de sobrevivência Kaplan-meier
+`grafico_km2`   | Função que cria gráfico no modelo de sobrevivência Kaplan-meier (2 variáveis)
+`histograma`   | Função que cria gráfico dinâmico de histograma.
+`mapa_tematico`   | Função que cria mapa dinâmico com reais e proporção.
+`nprop`   | Função que retorna porcentagem no formato NN (PP).
+`pct`   | Função que define porcentual.
+`picker_options`   | Função que customiza inputs widgets shiny.
+`pizza`   | Função que cria gráfico dinâmico de pizza.
+`prop_agg`   | Função de agregação personalizada em JavaScript. (Render)
+`reais`   | Função que cria ferramenta para definir reais.
+`status_para_cor`   | Função que cria cores para os status dos dashboards.
+`tabela`   | Função que ajuda definir tabelas.
+`tempo_lab_one`   | Função que ajuda calcular tempos.
+`tempo_lab`   | Função que retorna um vetor de tempos.
+
+
+### Exemplos de como usar
+
+
+
+#### Addins especiais para as funções de server shiny
+
+
 
 
 ### Como usar? 

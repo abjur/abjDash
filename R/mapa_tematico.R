@@ -1,12 +1,12 @@
 #' Mapas tematicos com reais e proporcao
 #' @name mapa_tematico
 #' @description funcao que cria mapa dinamico
-#' @param da base
+#' @param data base
 #'
 #' @export
-mapa_tematico <- function(da) {
-  v <- names(da)[1]
-  da_lab <- da %>%
+mapa_tematico <- function(data) {
+  v <- names(data)[1]
+  da_lab <- data %>%
     dplyr::mutate(
       prop = n/sum(n),
       lab = stringr::str_glue("{reais(n)} ({pct(prop)})")

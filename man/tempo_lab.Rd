@@ -4,10 +4,10 @@
 \alias{tempo_lab}
 \title{Tempo em label}
 \usage{
-tempo_lab(x)
+tempo_lab(vetor)
 }
 \arguments{
-\item{x}{vetor de tempos em anos}
+\item{vetor}{vetor de tempos em anos}
 }
 \description{
 funcao que retorna um vetor de tempos

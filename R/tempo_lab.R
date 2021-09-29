@@ -1,9 +1,9 @@
 #' Tempo em label
 #' @name tempo_lab
 #' @description funcao que retorna um vetor de tempos
-#' @param x vetor de tempos em anos
+#' @param vetor vetor de tempos em anos
 #'
 #' @export
-tempo_lab <- function(x) {
-  purrr::map_chr(x, tempo_lab_one)
+tempo_lab <- function(vetor) {
+  purrr::map_chr(vetor, tempo_lab_one)
 }

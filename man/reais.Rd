@@ -4,10 +4,10 @@
 \alias{reais}
 \title{Funcao de define reais}
 \usage{
-reais(x)
+reais(numero)
 }
 \arguments{
-\item{x}{numero}
+\item{numero}{vetor numérico para formatar}
 }
 \description{
 funcao que cria ferramenta para definir reais

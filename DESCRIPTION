@@ -34,9 +34,12 @@ Imports:
     purrr,
     reactable,
     rlang,
+    rstudioapi,
     scales,
     shinyWidgets,
     stringr,
     survival,
     tibble,
     viridis
+Suggests: 
+    testthat

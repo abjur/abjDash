@@ -4,11 +4,11 @@
 \alias{tempo_lab_one}
 \title{Ferramenta para facilitar o calculo de tempos por ano}
 \usage{
-tempo_lab_one(x)
+tempo_lab_one(numeric_expression)
 }
 \arguments{
-\item{x}{coluna}
+\item{numeric_expression}{coluna}
 }
 \description{
-funcao ajuda calcular tempos
+funcao que ajuda calcular tempos
 }
