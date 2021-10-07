@@ -7,7 +7,7 @@
 reais(numero)
 }
 \arguments{
-\item{numero}{vetor numérico para formatar}
+\item{numero}{vetor numerico para formatar}
 }
 \description{
 funcao que cria ferramenta para definir reais

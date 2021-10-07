@@ -58,21 +58,44 @@ Função  | Descrição
 `tempo_lab`   | Função que retorna um vetor de tempos.
 
 
-### Exemplos de como usar
+### Alguns exemplos de como usar as funções:
+
+- `reais`
+
+```{r}
+abjDash::reais(c(1, 2, 3, 4, 4, 6))
+```
+
+- `pct`
+
+```{r}
+library(magrittr)
+library(ggplot2)
+library(abjDash)
+
+da <- tibble::tribble(
+  ~nome, ~papel, ~estado,
+  "Maria", "Advogada", "SP",
+  "Claudia", "Estatistica", "SP",
+  "Fernanda", "Advogada", "SP",
+  "Joana", "Estatistica", "SP",
+  "Luiza", "Estatistica", "AM",
+)
+
+da %>% 
+  dplyr::count(papel) %>% 
+  dplyr::mutate(prop = n/sum(n)) %>%
+  ggplot2::ggplot() +
+  ggplot2::aes(y = papel, x = prop, label = pct(prop)) +
+  ggplot2::geom_col(width = 0.5, fill = "#AFCA0A") +
+  ggplot2::scale_x_continuous(labels = scales::percent) +
+  ggplot2::labs(y = "Profissão", x = "Proporção") +
+  ggplot2::theme_minimal(10)
+
+``` 
 
 
-
-#### Addins especiais para as funções de server shiny
-
-
-
-
-### Como usar? 
-.
-.
-.
-
-### Requisitos 
+## Requisitos 
 
 `{abjDash}` requer uma versão do R superior ou igual a 3.6. 
 

@@ -47,15 +47,45 @@ Você pode instalar a versão mais recente do {abjDash} com:
 | `tempo_lab_one`         | Função que ajuda calcular tempos.                                             |
 | `tempo_lab`             | Função que retorna um vetor de tempos.                                        |
 
-### Exemplos de como usar
+### Alguns exemplos de como usar as funções:
 
-#### Addins especiais para as funções de server shiny
+-   `reais`
 
-### Como usar?
+``` r
+abjDash::reais(c(1, 2, 3, 4, 4, 6))
+#> [1] "R$ 1" "R$ 2" "R$ 3" "R$ 4" "R$ 4" "R$ 6"
+```
 
-. . .
+-   `pct`
 
-### Requisitos
+``` r
+library(magrittr)
+library(ggplot2)
+library(abjDash)
+
+da <- tibble::tribble(
+  ~nome, ~papel, ~estado,
+  "Maria", "Advogada", "SP",
+  "Claudia", "Estatistica", "SP",
+  "Fernanda", "Advogada", "SP",
+  "Joana", "Estatistica", "SP",
+  "Luiza", "Estatistica", "AM",
+)
+
+da %>% 
+  dplyr::count(papel) %>% 
+  dplyr::mutate(prop = n/sum(n)) %>%
+  ggplot2::ggplot() +
+  ggplot2::aes(y = papel, x = prop, label = pct(prop)) +
+  ggplot2::geom_col(width = 0.5, fill = "#AFCA0A") +
+  ggplot2::scale_x_continuous(labels = scales::percent) +
+  ggplot2::labs(y = "Profissão", x = "Proporção") +
+  ggplot2::theme_minimal(10)
+```
+
+<img src="man/figures/README-unnamed-chunk-3-1.png" width="100%" />
+
+## Requisitos
 
 `{abjDash}` requer uma versão do R superior ou igual a 3.6.
 

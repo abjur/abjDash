@@ -1,7 +1,7 @@
 #' Funcao de define reais
 #' @name reais
 #' @description funcao que cria ferramenta para definir reais
-#' @param numero vetor numérico para formatar
+#' @param numero vetor numerico para formatar
 #'
 #' @export
 reais <- function(numero) {
