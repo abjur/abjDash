@@ -4,12 +4,12 @@
 \alias{calcular_estatisticas}
 \title{Calcula estatísticas de tempo}
 \usage{
-calcular_estatisticas(intervalo, da)
+calcular_estatisticas(intervalo, base)
 }
 \arguments{
 \item{intervalo}{nome do intervalo}
 
-\item{da}{base de dados}
+\item{base}{base de dados}
 }
 \description{
 funcao que ajuda calcular medias e medianas por

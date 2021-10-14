@@ -3,11 +3,11 @@
 #' @description funcao que ajuda calcular medias e medianas por
 #' intervalo
 #' @param intervalo nome do intervalo
-#' @param da base de dados
+#' @param base base de dados
 #'
 #' @export
-calcular_estatisticas <- function(intervalo, da) {
-  da %>%
+calcular_estatisticas <- function(intervalo, base) {
+  base %>%
     dplyr::select(dplyr::all_of(intervalo)) %>%
     dplyr::mutate(tempo = as.numeric(.data[[intervalo[2]]] - .data[[intervalo[1]]])) %>%
     dplyr::summarise(

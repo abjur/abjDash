@@ -2,9 +2,9 @@ app_server <- function( input, output, session ) {
 
   shiny::observe({
     shinyalert::shinyalert(
-      "Dashboard Tributário",
+      "Dashboard <nome do projeto>",
       text = shiny::tagList(
-        "Seja bem vindo ao dashboard sobre Contencioso Tributário Administrativo. Neste aplicativo, voc\u00ea",
+        "Seja bem vindo ao dashboard sobre <nome do projeto>. Neste aplicativo, voc\u00ea",
         " pode acessar an\u00e1lises sobre processos administrativos.",
         "Acesse os filtros no",
         shiny::strong("menu lateral"),
@@ -66,6 +66,6 @@ app_server <- function( input, output, session ) {
   })
 
   mod_processo_server("processo_ui_1", app_data)
-  mod_pgfn_server("pgfn_ui")
+
 
 }

@@ -37,6 +37,7 @@ Imports:
     rstudioapi,
     scales,
     shinyWidgets,
+    stringi,
     stringr,
     survival,
     tibble,
