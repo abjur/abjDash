@@ -85,6 +85,17 @@ da %>%
 
 <img src="man/figures/README-unnamed-chunk-3-1.png" width="100%" />
 
+## Templates disponíveis
+
+Para as funções de módulo Server, UI e app Server deixamos disponíveis
+drafts:
+
+#### Exemplo de uso
+
+``` r
+abjDash::template_app_server()
+```
+
 ## Requisitos
 
 `{abjDash}` requer uma versão do R superior ou igual a 3.6.
