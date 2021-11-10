@@ -73,23 +73,13 @@ library(magrittr)
 library(ggplot2)
 library(abjDash)
 
-da <- tibble::tribble(
-  ~nome, ~papel, ~estado,
-  "Maria", "Advogada", "SP",
-  "Claudia", "Estatistica", "SP",
-  "Fernanda", "Advogada", "SP",
-  "Joana", "Estatistica", "SP",
-  "Luiza", "Estatistica", "AM",
-)
-
-da %>% 
-  dplyr::count(papel) %>% 
+mtcars %>% 
+  dplyr::count(cyl) %>% 
   dplyr::mutate(prop = n/sum(n)) %>%
   ggplot2::ggplot() +
-  ggplot2::aes(y = papel, x = prop, label = pct(prop)) +
-  ggplot2::geom_col(width = 0.5, fill = "#AFCA0A") +
+  ggplot2::aes(y = cyl, x = prop, label = pct(prop)) +
+  ggplot2::geom_col(fill = "#AFCA0A") +
   ggplot2::scale_x_continuous(labels = scales::percent) +
-  ggplot2::labs(y = "Profissão", x = "Proporção") +
   ggplot2::theme_minimal(10)
 
 ``` 

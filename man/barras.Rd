@@ -4,10 +4,10 @@
 \alias{barras}
 \title{Graficos de barras do tipo highcharter}
 \usage{
-barras(da, tipo = "bar")
+barras(base, tipo = "bar")
 }
 \arguments{
-\item{da}{base}
+\item{base}{base}
 
 \item{tipo}{tipo barras}
 }

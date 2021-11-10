@@ -4,11 +4,11 @@
 \alias{barras_prop}
 \title{Graficos de barras do tipo highcharter}
 \usage{
-barras_prop(da)
+barras_prop(base)
 }
 \arguments{
-\item{da}{base}
+\item{base}{base que gera o grafico}
 }
 \description{
-funcao que cria grafico dinamico de barras com proporção
+funcao que cria grafico dinamico de barras com proporcao
 }
