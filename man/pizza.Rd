@@ -10,5 +10,5 @@ pizza(da)
 \item{da}{base}
 }
 \description{
-funcao que cria grafico dinamico de pizza
+funcao que cria grafico dinamico de pizza (precisa definir proporcao)
 }

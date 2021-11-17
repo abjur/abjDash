@@ -4,10 +4,10 @@
 \alias{nprop}
 \title{Ferramenta para calculo porcentagem}
 \usage{
-nprop(x, val)
+nprop(coluna, val)
 }
 \arguments{
-\item{x}{coluna}
+\item{coluna}{coluna}
 
 \item{val}{categorias de teste}
 }

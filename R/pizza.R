@@ -1,6 +1,6 @@
 #' Graficos de setores do tipo highcharter
 #' @name pizza
-#' @description funcao que cria grafico dinamico de pizza
+#' @description funcao que cria grafico dinamico de pizza (precisa definir proporcao)
 #' @param da base
 #'
 #' @export

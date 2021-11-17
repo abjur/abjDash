@@ -3,7 +3,7 @@
 
 # abjDash
 
-![](https://img.shields.io/badge/package-construction-yellow)
+![](https://img.shields.io/badge/test-construction-blue)
 
 ### O que é?
 
@@ -67,9 +67,9 @@ mtcars %>%
   dplyr::count(cyl) %>% 
   dplyr::mutate(prop = n/sum(n)) %>%
   ggplot2::ggplot() +
-  ggplot2::aes(y = cyl, x = prop, label = pct(prop)) +
-  ggplot2::geom_col(fill = "#AFCA0A") +
-  ggplot2::scale_x_continuous(labels = scales::percent) +
+  ggplot2::aes(x = cyl, y = prop, label = pct(prop)) +
+  ggplot2::geom_col(fill = "#AFCA0A", width = .5) +
+  ggplot2::scale_y_continuous(labels = scales::percent) +
   ggplot2::theme_minimal(10)
 ```
 
