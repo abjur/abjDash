@@ -4,11 +4,11 @@
 \alias{pct}
 \title{Formata porcentagem}
 \usage{
-pct(x)
+pct(valor)
 }
 \arguments{
-\item{x}{valor}
+\item{valor}{valor}
 }
 \description{
-funcoo que define porcentual
+funcao que define porcentual
 }

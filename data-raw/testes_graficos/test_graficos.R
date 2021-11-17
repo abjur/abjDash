@@ -13,3 +13,10 @@ mtcars %>%
 
 # Teste barras empilhadas  ----------------------------------------------------------------------------------------------------------------------
 
+#barras_empilhadas
+#custom_lab
+#grafico_km
+#grafico_km2
+#histograma
+#mapa_tematico
+#pizza

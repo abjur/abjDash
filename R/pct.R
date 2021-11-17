@@ -1,9 +1,9 @@
 #' Formata porcentagem
 #' @name pct
-#' @description  funcoo que define porcentual
-#' @param x valor
+#' @description  funcao que define porcentual
+#' @param valor valor
 #'
 #' @export
-pct <- function(x) {
-  scales::percent(x, 0.1, decimal.mark = ",")
+pct <- function(valor) {
+  scales::percent(valor, 0.1, decimal.mark = ",")
 }
