@@ -8,5 +8,5 @@
 nprop <- function(coluna, val) {
   soma <- sum(coluna %in% val)
   prop <- mean(coluna %in% val)
-  stringr::str_glue("{s} ({pct(prop)})")
+  stringr::str_glue("{soma} ({pct(prop)})")
 }
