@@ -1,6 +1,6 @@
 #' Calcula estatísticas de tempo
 #' @name calcular_estatisticas
-#' @description funcao que ajuda calcular medias e medianas por
+#' @description Função que ajuda calcular médias e medianas por
 #' intervalo
 #' @param intervalo nome do intervalo
 #' @param base base de dados

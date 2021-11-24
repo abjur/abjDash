@@ -12,6 +12,6 @@ calcular_estatisticas(intervalo, base)
 \item{base}{base de dados}
 }
 \description{
-funcao que ajuda calcular medias e medianas por
+Função que ajuda calcular médias e medianas por
 intervalo
 }

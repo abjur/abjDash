@@ -1,6 +1,6 @@
-#' Helper para tratar milhares e milhoes
+#' Helper para tratar milhares e milhões
 #' @name custom_lab
-#' @description funcao que facilita o calculo de milhares e milhoes
+#' @description Função que facilita o cálculo de milhares e milhõess
 #' @param x coluna
 #' @param ... outros argumentos (não utilizado)
 #' @param dinheiro transformar em dinheiro? Por padrao sim

@@ -2,13 +2,13 @@
 % Please edit documentation in R/barras_prop.R
 \name{barras_prop}
 \alias{barras_prop}
-\title{Graficos de barras do tipo highcharter}
+\title{Gráfico de barras do tipo highcharter}
 \usage{
 barras_prop(base)
 }
 \arguments{
-\item{base}{base que gera o grafico}
+\item{base}{base que gera o gráfico}
 }
 \description{
-funcao que cria grafico dinamico de barras com proporcao
+Funcão que cria gráfico dinâmico de barras com proporção
 }

@@ -1,6 +1,6 @@
 #' Shiny Widgets
 #' @name picker_options
-#' @description funcao que customiza inputs widgets shiny
+#' @description Função que customiza inputs widgets shiny
 #'
 #' @export
 picker_options <- function() {

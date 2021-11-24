@@ -1,6 +1,6 @@
-#' Ferramenta para calculo porcentagem
+#' Ferramenta para cálculo porcentagem
 #' @name nprop
-#' @description funcao que retorna no formato NN (PP)
+#' @description Função que retorna no formato NN (PP)
 #' @param coluna coluna
 #' @param val categorias de teste
 #'

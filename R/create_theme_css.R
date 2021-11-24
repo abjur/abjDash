@@ -1,6 +1,6 @@
 #' Theme CSS
 #' @name create_theme_css
-#' @description funcao que cria tema CSS para os dashboards
+#' @description Função que cria tema CSS para os dashboards
 #'
 #' @export
 create_theme_css <- function() {

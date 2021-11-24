@@ -2,7 +2,7 @@
 % Please edit documentation in R/grafico_km.R
 \name{grafico_km}
 \alias{grafico_km}
-\title{Grafico Kaplan-meier de modelo de sobrevivencia}
+\title{Gráfico Kaplan-meier de modelo de sobrevivência}
 \usage{
 grafico_km(m)
 }
@@ -10,5 +10,5 @@ grafico_km(m)
 \item{m}{modelo}
 }
 \description{
-funcao que cria grafico no modelo de sobrevivencia Kaplan-meier
+Função que cria gráfico no modelo de sobrevivência Kaplan-meier
 }

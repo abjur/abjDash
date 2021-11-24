@@ -1,6 +1,6 @@
 #' Tempo em label
 #' @name tempo_lab
-#' @description funcao que retorna um vetor de tempos
+#' @description Função que retorna um vetor de tempos
 #' @param vetor vetor de tempos em anos
 #'
 #' @export

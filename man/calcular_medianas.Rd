@@ -16,5 +16,5 @@ calcular_medianas(da, data1, data2, quebra)
 \item{quebra}{quebra de tempo}
 }
 \description{
-funcao que ajuda calcular medianas por quebra de tempo
+Função que ajuda calcular medianas por quebra de tempo
 }

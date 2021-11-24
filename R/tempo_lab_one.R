@@ -1,6 +1,6 @@
-#' Ferramenta para facilitar o calculo de tempos por ano
+#' Ferramenta para facilitar o cálculo de tempos por ano
 #' @name tempo_lab_one
-#' @description funcao que ajuda calcular tempos
+#' @description Função que ajuda calcular tempos
 #' @param numeric_expression coluna
 #'
 #' @export

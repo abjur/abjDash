@@ -10,5 +10,5 @@ histograma(valor)
 \item{valor}{valor}
 }
 \description{
-funcao que cria grafico dinamico de histograma
+Função que cria gráfico dinâmico de histograma
 }

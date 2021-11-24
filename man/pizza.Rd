@@ -2,7 +2,7 @@
 % Please edit documentation in R/pizza.R
 \name{pizza}
 \alias{pizza}
-\title{Graficos de setores do tipo highcharter}
+\title{Gráficos de setores do tipo highcharter}
 \usage{
 pizza(da)
 }
@@ -10,5 +10,5 @@ pizza(da)
 \item{da}{base}
 }
 \description{
-funcao que cria grafico dinamico de pizza (precisa definir proporcao)
+Função que cria gráfico dinâmico de pizza (precisa definir proporção)
 }

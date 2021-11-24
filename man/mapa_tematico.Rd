@@ -2,7 +2,7 @@
 % Please edit documentation in R/mapa_tematico.R
 \name{mapa_tematico}
 \alias{mapa_tematico}
-\title{Mapas tematicos com reais e proporcao}
+\title{Mapas temáticos com reais e proporção}
 \usage{
 mapa_tematico(data)
 }
@@ -10,5 +10,5 @@ mapa_tematico(data)
 \item{data}{base}
 }
 \description{
-funcao que cria mapa dinamico
+Função que cria mapa dinâmico
 }

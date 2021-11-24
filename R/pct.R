@@ -1,6 +1,6 @@
 #' Formata porcentagem
 #' @name pct
-#' @description  funcao que define porcentual
+#' @description Função que define porcentual
 #' @param valor valor
 #'
 #' @export

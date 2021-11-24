@@ -1,6 +1,6 @@
-#' Graficos de barras do tipo highcharter
+#' Gráficos de barras do tipo highcharter
 #' @name barras
-#' @description funcao que cria grafico dinamico
+#' @description Função que cria gráfico dinâmico
 #' @param base base
 #' @param tipo tipo barras
 #'

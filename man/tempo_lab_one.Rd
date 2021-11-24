@@ -2,7 +2,7 @@
 % Please edit documentation in R/tempo_lab_one.R
 \name{tempo_lab_one}
 \alias{tempo_lab_one}
-\title{Ferramenta para facilitar o calculo de tempos por ano}
+\title{Ferramenta para facilitar o cálculo de tempos por ano}
 \usage{
 tempo_lab_one(numeric_expression)
 }
@@ -10,5 +10,5 @@ tempo_lab_one(numeric_expression)
 \item{numeric_expression}{coluna}
 }
 \description{
-funcao que ajuda calcular tempos
+Função que ajuda calcular tempos
 }
