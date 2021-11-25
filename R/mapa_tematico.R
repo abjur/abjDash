@@ -1,6 +1,6 @@
-#' Mapas tematicos com reais e proporcao
+#' Mapas temáticos com reais e proporção
 #' @name mapa_tematico
-#' @description funcao que cria mapa dinamico
+#' @description Função que cria mapa dinâmico
 #' @param data base
 #'
 #' @export

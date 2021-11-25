@@ -12,6 +12,6 @@ get_median(da, re_tempo)
 \item{re_tempo}{seletor de tempos}
 }
 \description{
-funcao que ajuda pegar a mediana de processos por
+Função que ajuda pegar a mediana de processos por
 tempo
 }

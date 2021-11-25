@@ -1,7 +1,7 @@
-#' Graficos de barras do tipo highcharter
+#' Gráfico de barras do tipo highcharter
 #' @name barras_prop
-#' @description funcao que cria grafico dinamico de barras com proporcao
-#' @param base base que gera o grafico
+#' @description Funcão que cria gráfico dinâmico de barras com proporção
+#' @param base base que gera o gráfico
 #'
 #' @export
 barras_prop <- function(base) {

@@ -2,7 +2,7 @@
 % Please edit documentation in R/barras.R
 \name{barras}
 \alias{barras}
-\title{Graficos de barras do tipo highcharter}
+\title{Gráficos de barras do tipo highcharter}
 \usage{
 barras(base, tipo = "bar")
 }
@@ -12,5 +12,5 @@ barras(base, tipo = "bar")
 \item{tipo}{tipo barras}
 }
 \description{
-funcao que cria grafico dinamico
+Função que cria gráfico dinâmico
 }

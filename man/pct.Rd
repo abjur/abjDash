@@ -10,5 +10,5 @@ pct(valor)
 \item{valor}{valor}
 }
 \description{
-funcao que define porcentual
+Função que define porcentual
 }

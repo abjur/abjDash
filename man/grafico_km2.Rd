@@ -2,7 +2,7 @@
 % Please edit documentation in R/grafico_km2.R
 \name{grafico_km2}
 \alias{grafico_km2}
-\title{Grafico Kaplan-meier de modelo de sobrevivencia (2 variaveis)}
+\title{Gráfico Kaplan-meier de modelo de sobrevivência (2 variáveis)}
 \usage{
 grafico_km2(m, lab)
 }
@@ -12,5 +12,5 @@ grafico_km2(m, lab)
 \item{lab}{label para cores}
 }
 \description{
-funcao que cria grafico no modelo de sobrevivendia Kaplan-meier
+Função que cria gráfico no modelo de sobrevivência Kaplan-meier
 }

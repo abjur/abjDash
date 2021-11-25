@@ -1,6 +1,6 @@
 #' template_mod_server
 #'
-#' Cria templates para o modulo de Server
+#' Cria templates para o módulo de Server
 #'
 #' @param nome_arquivo nome do arquivo
 #' @param path nome do diretório

@@ -1,6 +1,6 @@
 #' Pegar a mediana baseada no processo
 #' @name get_median
-#' @description funcao que ajuda pegar a mediana de processos por
+#' @description Função que ajuda pegar a mediana de processos por
 #' tempo
 #' @param da dados
 #' @param re_tempo seletor de tempos

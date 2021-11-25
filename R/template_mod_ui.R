@@ -1,6 +1,6 @@
 #' template_mod_ui
 #'
-#' Cria templates para o modulo de UI
+#' Cria templates para o  módulo de UI
 #'
 #' @param nome_arquivo nome do arquivo
 #' @param path nome do diretório

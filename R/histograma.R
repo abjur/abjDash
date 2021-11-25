@@ -1,6 +1,6 @@
 #' Histograma do tipo highcharter
 #' @name histograma
-#' @description funcao que cria grafico dinamico de histograma
+#' @description Função que cria gráfico dinâmico de histograma
 #' @param valor valor
 #'
 #' @export

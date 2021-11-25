@@ -18,5 +18,5 @@ template_mod_server(
 \item{template}{nome do template que deseja}
 }
 \description{
-Cria templates para o modulo de Server
+Cria templates para o módulo de Server
 }

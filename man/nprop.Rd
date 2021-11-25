@@ -2,7 +2,7 @@
 % Please edit documentation in R/nprop.R
 \name{nprop}
 \alias{nprop}
-\title{Ferramenta para calculo porcentagem}
+\title{Ferramenta para cálculo porcentagem}
 \usage{
 nprop(coluna, val)
 }
@@ -12,5 +12,5 @@ nprop(coluna, val)
 \item{val}{categorias de teste}
 }
 \description{
-funcao que retorna no formato NN (PP)
+Função que retorna no formato NN (PP)
 }

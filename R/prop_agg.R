@@ -1,6 +1,6 @@
 #' Render linhas com JS
 #' @name prop_agg
-#' @description  funcao de agregacao personalizada em JavaScript
+#' @description Função de agregação personalizada em JavaScript
 #' @param x valores
 #'
 #' @export

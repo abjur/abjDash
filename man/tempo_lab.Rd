@@ -10,5 +10,5 @@ tempo_lab(vetor)
 \item{vetor}{vetor de tempos em anos}
 }
 \description{
-funcao que retorna um vetor de tempos
+Função que retorna um vetor de tempos
 }

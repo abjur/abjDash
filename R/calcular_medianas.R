@@ -1,6 +1,6 @@
 #' Calcula as medianas com base nos dados, datas e quebra
 #' @name calcular_medianas
-#' @description funcao que ajuda calcular medianas por quebra de tempo
+#' @description Função que ajuda calcular medianas por quebra de tempo
 #' @param da base de dados filtrada
 #' @param data1 coluna de data da esquerda
 #' @param data2 coluna de data da direita

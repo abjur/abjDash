@@ -7,5 +7,5 @@
 picker_options()
 }
 \description{
-funcao que customiza inputs widgets shiny
+Função que customiza inputs widgets shiny
 }

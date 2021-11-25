@@ -5,7 +5,7 @@
 
 ![](https://img.shields.io/badge/test-construction-blue)
 
-### O que é?
+### Utilidades ABJ
 
 Pacote de desenvolvimento de ferramentas essenciais para os projetos da
 [Associação Brasileira de Jurimetria](https://abj.org.br/).
@@ -23,29 +23,28 @@ Você pode instalar a versão mais recente do {abjDash} com:
 
 ### Lista de funções
 
-| Função                  | Descrição                                                                     |
-|-------------------------|-------------------------------------------------------------------------------|
-| `barras_empilhadas`     | Função que cria gráfico dinâmico de colunas por grupo.                        |
-| `barras_prop`           | Função que cria gráfico dinâmico de barras com proporção.                     |
-| `barras`                | Função que cria gráfico dinâmico de barras.                                   |
-| `calcular_estatisticas` | Função que ajuda calcular medias e medianas por intervalo.                    |
-| `create_theme_css`      | Função que cria tema CSS para os Dashboards.                                  |
-| `custom_lab`            | Função que facilita o cálculo de milhares e milhões.                          |
-| `get_median`            | Função que ajuda pegar a mediana de processos por tempo baseada no processo   |
-| `grafico_km`            | Função que cria gráfico no modelo de sobrevivência Kaplan-meier               |
-| `grafico_km2`           | Função que cria gráfico no modelo de sobrevivência Kaplan-meier (2 variáveis) |
-| `histograma`            | Função que cria gráfico dinâmico de histograma.                               |
-| `mapa_tematico`         | Função que cria mapa dinâmico com reais e proporção.                          |
-| `nprop`                 | Função que retorna porcentagem no formato NN (PP).                            |
-| `pct`                   | Função que define porcentual.                                                 |
-| `picker_options`        | Função que customiza inputs widgets shiny.                                    |
-| `pizza`                 | Função que cria gráfico dinâmico de pizza.                                    |
-| `prop_agg`              | Função de agregação personalizada em JavaScript. (Render)                     |
-| `reais`                 | Função que cria ferramenta para definir reais.                                |
-| `status_para_cor`       | Função que cria cores para os status dos dashboards.                          |
-| `tabela`                | Função que ajuda definir tabelas.                                             |
-| `tempo_lab_one`         | Função que ajuda calcular tempos.                                             |
-| `tempo_lab`             | Função que retorna um vetor de tempos.                                        |
+| Função                  | Descrição                                                                     | Teste                                                                                                |
+|-------------------------|-------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| `barras_empilhadas`     | Função que cria gráfico dinâmico de colunas por grupo.                        | \-                                                                                                   |
+| `barras_prop`           | Função que cria gráfico dinâmico de barras com proporção.                     | \-                                                                                                   |
+| `barras`                | Função que cria gráfico dinâmico de barras.                                   | ok                                                                                                   |
+| `calcular_estatisticas` | Função que ajuda calcular medias e medianas por intervalo.                    | ok                                                                                                   |
+| `create_theme_css`      | Função que cria tema CSS para os Dashboards.                                  | [ok](https://github.com/abjur/obsDash/blob/1d9c5bd7ff41cf75cddc22dbbe118399aafac89f/R/app_ui.R#L114) |
+| `custom_lab`            | Função que facilita o cálculo de milhares e milhões.                          | [ok](https://github.com/abjur/obsDash/blob/1d9c5bd7ff41cf75cddc22dbbe118399aafac89f/R/app_ui.R#L114) |
+| `get_median`            | Função que ajuda pegar a mediana de processos por tempo baseada no processo   | ok                                                                                                   |
+| `grafico_km`            | Função que cria gráfico no modelo de sobrevivência Kaplan-meier               | \-                                                                                                   |
+| `grafico_km2`           | Função que cria gráfico no modelo de sobrevivência Kaplan-meier (2 variáveis) | \-                                                                                                   |
+| `histograma`            | Função que cria gráfico dinâmico de histograma.                               | \-                                                                                                   |
+| `mapa_tematico`         | Função que cria mapa dinâmico com reais e proporção.                          | \-                                                                                                   |
+| `nprop`                 | Função que retorna porcentagem no formato NN (PP).                            | ok                                                                                                   |
+| `pct`                   | Função que define porcentual.                                                 | ok                                                                                                   |
+| `picker_options`        | Função que customiza inputs widgets shiny.                                    | \-                                                                                                   |
+| `pizza`                 | Função que cria gráfico dinâmico de pizza.                                    | ok                                                                                                   |
+| `prop_agg`              | Função de agregação personalizada em JavaScript. (Render)                     | \-                                                                                                   |
+| `reais`                 | Função que cria ferramenta para definir reais.                                | ok                                                                                                   |
+| `status_para_cor`       | Função que cria cores para os status dos dashboards.                          | [ok](https://github.com/abjur/obsDash/blob/1d9c5bd7ff41cf75cddc22dbbe118399aafac89f/R/app_ui.R#L114) |
+| `tempo_lab_one`         | Função que ajuda calcular tempos.                                             | ok                                                                                                   |
+| `tempo_lab`             | Função que retorna um vetor de tempos.                                        | ok                                                                                                   |
 
 ### Alguns exemplos de como usar as funções:
 
@@ -95,3 +94,10 @@ abjDash::template_app_server()
 O sistema de gerenciamento de conteúdo `{abjDash}` é licenciado sob os
 termos da [MIT + file
 LICENSE](https://github.com/abjur/abjDash/blob/master/LICENSE)
+
+### Testes
+
+Para algumas funções de gráficos e relacionadas a construção de
+aplicativos Shiny a fase de teste está em *andamento*. Caso encontrar
+algum problema específico contribua em
+[issues](https://github.com/abjur/abjDash/issues).

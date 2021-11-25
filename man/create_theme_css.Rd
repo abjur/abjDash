@@ -7,5 +7,5 @@
 create_theme_css()
 }
 \description{
-funcao que cria tema CSS para os dashboards
+Função que cria tema CSS para os dashboards
 }

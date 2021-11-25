@@ -18,5 +18,5 @@ template_mod_ui(
 \item{template}{nome do template que deseja}
 }
 \description{
-Cria templates para o modulo de UI
+Cria templates para o  módulo de UI
 }

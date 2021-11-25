@@ -2,13 +2,13 @@
 % Please edit documentation in R/reais.R
 \name{reais}
 \alias{reais}
-\title{Funcao de define reais}
+\title{Função de define reais}
 \usage{
 reais(numero)
 }
 \arguments{
-\item{numero}{vetor numerico para formatar}
+\item{numero}{vetor numérico para formatar}
 }
 \description{
-funcao que cria ferramenta para definir reais
+Função que cria ferramenta para definir reais
 }

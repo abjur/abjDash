@@ -1,6 +1,6 @@
-#' Grafico Kaplan-meier de modelo de sobrevivencia (2 variaveis)
+#' Gráfico Kaplan-meier de modelo de sobrevivência (2 variáveis)
 #' @name grafico_km2
-#' @description funcao que cria grafico no modelo de sobrevivendia Kaplan-meier
+#' @description Função que cria gráfico no modelo de sobrevivência Kaplan-meier
 #' @param m modelo
 #' @param lab label para cores
 #'

@@ -2,17 +2,17 @@
 % Please edit documentation in R/barras_empilhadas.R
 \name{barras_empilhadas}
 \alias{barras_empilhadas}
-\title{Grafico de colunas do tipo highcharter por grupo}
+\title{Gráfico de colunas do tipo highcharter por grupo}
 \usage{
 barras_empilhadas(base, grupo, tipo = "column")
 }
 \arguments{
-\item{base}{base que gera o grafico}
+\item{base}{base que gera o gráfico}
 
-\item{grupo}{grupo de informacaoes}
+\item{grupo}{grupo de informações}
 
 \item{tipo}{column}
 }
 \description{
-funcao que cria grafico dinamico de colunas por grupo
+Funcão que cria gráfico dinâmico de colunas por grupo
 }

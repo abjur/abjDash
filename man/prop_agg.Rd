@@ -10,5 +10,5 @@ prop_agg(x)
 \item{x}{valores}
 }
 \description{
-funcao de agregacao personalizada em JavaScript
+Função de agregação personalizada em JavaScript
 }

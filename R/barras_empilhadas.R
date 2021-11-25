@@ -1,8 +1,8 @@
-#' Grafico de colunas do tipo highcharter por grupo
+#' Gráfico de colunas do tipo highcharter por grupo
 #' @name barras_empilhadas
-#' @description funcao que cria grafico dinamico de colunas por grupo
-#' @param base base que gera o grafico
-#' @param grupo grupo de informacaoes
+#' @description Funcão que cria gráfico dinâmico de colunas por grupo
+#' @param base base que gera o gráfico
+#' @param grupo grupo de informações
 #' @param tipo column
 #'
 #' @export
