@@ -3,7 +3,9 @@
 
 # abjDash
 
-![](https://img.shields.io/badge/test-construction-blue)
+<!-- badges: start --> [![Codecov test
+coverage](https://codecov.io/gh/abjur/abjDash/branch/master/graph/badge.svg)](https://codecov.io/gh/abjur/abjDash?branch=master)
+<!-- badges: end -->
 
 ### Utilidades ABJ
 
@@ -60,6 +62,8 @@ abjDash::reais(c(1, 2, 3, 4, 4, 6))
 ``` r
 library(magrittr)
 library(ggplot2)
+#> Warning in register(): Can't find generic `scale_type` in package ggplot2 to
+#> register S3 method.
 library(abjDash)
 
 mtcars %>% 

@@ -14,7 +14,9 @@ knitr::opts_chunk$set(
 ```
 
 # abjDash
-![](https://img.shields.io/badge/test-construction-blue)  
+  <!-- badges: start -->
+  [![Codecov test coverage](https://codecov.io/gh/abjur/abjDash/branch/master/graph/badge.svg)](https://codecov.io/gh/abjur/abjDash?branch=master)
+  <!-- badges: end -->
 
 
 ### Utilidades ABJ
