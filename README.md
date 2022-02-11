@@ -3,7 +3,9 @@
 
 # abjDash
 
-![](https://img.shields.io/badge/test-construction-blue)
+<!-- badges: start -->
+![](https://codecov.io/gh/abjur/abjDash/branch/master/graph/badge.svg)
+<!-- badges: end -->
 
 ### Utilidades ABJ
 
@@ -23,28 +25,29 @@ Você pode instalar a versão mais recente do {abjDash} com:
 
 ### Lista de funções
 
-| Função                  | Descrição                                                                     | Teste                                                                                                |
-|-------------------------|-------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| `barras_empilhadas`     | Função que cria gráfico dinâmico de colunas por grupo.                        | \-                                                                                                   |
-| `barras_prop`           | Função que cria gráfico dinâmico de barras com proporção.                     | \-                                                                                                   |
-| `barras`                | Função que cria gráfico dinâmico de barras.                                   | ok                                                                                                   |
-| `calcular_estatisticas` | Função que ajuda calcular medias e medianas por intervalo.                    | ok                                                                                                   |
-| `create_theme_css`      | Função que cria tema CSS para os Dashboards.                                  | [ok](https://github.com/abjur/obsDash/blob/1d9c5bd7ff41cf75cddc22dbbe118399aafac89f/R/app_ui.R#L114) |
-| `custom_lab`            | Função que facilita o cálculo de milhares e milhões.                          | [ok](https://github.com/abjur/obsDash/blob/1d9c5bd7ff41cf75cddc22dbbe118399aafac89f/R/app_ui.R#L114) |
-| `get_median`            | Função que ajuda pegar a mediana de processos por tempo baseada no processo   | ok                                                                                                   |
-| `grafico_km`            | Função que cria gráfico no modelo de sobrevivência Kaplan-meier               | \-                                                                                                   |
-| `grafico_km2`           | Função que cria gráfico no modelo de sobrevivência Kaplan-meier (2 variáveis) | \-                                                                                                   |
-| `histograma`            | Função que cria gráfico dinâmico de histograma.                               | \-                                                                                                   |
-| `mapa_tematico`         | Função que cria mapa dinâmico com reais e proporção.                          | \-                                                                                                   |
-| `nprop`                 | Função que retorna porcentagem no formato NN (PP).                            | ok                                                                                                   |
-| `pct`                   | Função que define porcentual.                                                 | ok                                                                                                   |
-| `picker_options`        | Função que customiza inputs widgets shiny.                                    | \-                                                                                                   |
-| `pizza`                 | Função que cria gráfico dinâmico de pizza.                                    | ok                                                                                                   |
-| `prop_agg`              | Função de agregação personalizada em JavaScript. (Render)                     | \-                                                                                                   |
-| `reais`                 | Função que cria ferramenta para definir reais.                                | ok                                                                                                   |
-| `status_para_cor`       | Função que cria cores para os status dos dashboards.                          | [ok](https://github.com/abjur/obsDash/blob/1d9c5bd7ff41cf75cddc22dbbe118399aafac89f/R/app_ui.R#L114) |
-| `tempo_lab_one`         | Função que ajuda calcular tempos.                                             | ok                                                                                                   |
-| `tempo_lab`             | Função que retorna um vetor de tempos.                                        | ok                                                                                                   |
+| Função                  | Descrição                                                                     | Teste                                                                                                                       |
+|-------------------------|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| `barras_empilhadas`     | Função que cria gráfico dinâmico de colunas por grupo.                        | ok                                                                                                                          |
+| `barras_prop`           | Função que cria gráfico dinâmico de barras com proporção.                     | ok                                                                                                                          |
+| `barras`                | Função que cria gráfico dinâmico de barras.                                   | ok                                                                                                                          |
+| `calcular_estatisticas` | Função que ajuda calcular medias e medianas por intervalo.                    | ok                                                                                                                          |
+| `calcular_medianas`     | Função que calcula as medianas com base nos dados, datas e quebra.            | ok                                                                                                                          |
+| `create_theme_css`      | Função que cria tema CSS para os Dashboards.                                  | [ok](https://github.com/abjur/obsDash/blob/1d9c5bd7ff41cf75cddc22dbbe118399aafac89f/R/app_ui.R#L114)                        |
+| `custom_lab`            | Função que facilita o cálculo de milhares e milhões.                          | ok                                                                                                                          |
+| `get_median`            | Função que ajuda pegar a mediana de processos por tempo baseada no processo   | ok                                                                                                                          |
+| `grafico_km`            | Função que cria gráfico no modelo de sobrevivência Kaplan-meier               | [ok](https://github.com/abjur/obsFase3/blob/00575d1e5f180f91dab2307b9cd2de2b4dc556b6/inst/pres/20210629_obs/index.Rmd#L778) |
+| `grafico_km2`           | Função que cria gráfico no modelo de sobrevivência Kaplan-meier (2 variáveis) | [ok](https://github.com/abjur/obsFase3/blob/00575d1e5f180f91dab2307b9cd2de2b4dc556b6/inst/pres/20210629_obs/index.Rmd#L790) |
+| `histograma`            | Função que cria gráfico dinâmico de histograma.                               | ok                                                                                                                          |
+| `mapa_tematico`         | Função que cria mapa dinâmico com reais e proporção.                          | [ok](https://github.com/abjur/obsCIEE/blob/af615b25d49bc5e14dd275ee555dde579e2821af/R/mod_tema.R#L129)                      |
+| `nprop`                 | Função que retorna porcentagem no formato NN (PP).                            | ok                                                                                                                          |
+| `pct`                   | Função que define porcentual.                                                 | ok                                                                                                                          |
+| `picker_options`        | Função que customiza inputs widgets shiny.                                    | [ok](https://github.com/abjur/obsCIEE/blob/af615b25d49bc5e14dd275ee555dde579e2821af/R/app_ui.R#L15)                         |
+| `pizza`                 | Função que cria gráfico dinâmico de pizza.                                    | ok                                                                                                                          |
+| `prop_agg`              | Função de agregação personalizada em JavaScript. (Render)                     | \-                                                                                                                          |
+| `reais`                 | Função que cria ferramenta para definir reais.                                | ok                                                                                                                          |
+| `status_para_cor`       | Função que cria cores para os status dos dashboards.                          | [ok](https://github.com/abjur/obsDash/blob/1d9c5bd7ff41cf75cddc22dbbe118399aafac89f/R/app_ui.R#L114)                        |
+| `tempo_lab_one`         | Função que ajuda calcular tempos.                                             | ok                                                                                                                          |
+| `tempo_lab`             | Função que retorna um vetor de tempos.                                        | ok                                                                                                                          |
 
 ### Alguns exemplos de como usar as funções:
 
@@ -60,6 +63,8 @@ abjDash::reais(c(1, 2, 3, 4, 4, 6))
 ``` r
 library(magrittr)
 library(ggplot2)
+#> Warning in register(): Can't find generic `scale_type` in package ggplot2 to
+#> register S3 method.
 library(abjDash)
 
 mtcars %>% 
@@ -94,10 +99,3 @@ abjDash::template_app_server()
 O sistema de gerenciamento de conteúdo `{abjDash}` é licenciado sob os
 termos da [MIT + file
 LICENSE](https://github.com/abjur/abjDash/blob/master/LICENSE)
-
-### Testes
-
-Para algumas funções de gráficos e relacionadas a construção de
-aplicativos Shiny a fase de teste está em *andamento*. Caso encontrar
-algum problema específico contribua em
-[issues](https://github.com/abjur/abjDash/issues).
