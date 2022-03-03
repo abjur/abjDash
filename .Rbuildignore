@@ -4,3 +4,6 @@
 ^LICENSE\.md$
 ^data-raw$
 ^codecov\.yml$
+^\.travis\.yml$
+^\.covrignore$
+^\.github$

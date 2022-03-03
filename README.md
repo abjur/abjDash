@@ -4,7 +4,9 @@
 # abjDash
 
 <!-- badges: start -->
-![](https://codecov.io/gh/abjur/abjDash/branch/master/graph/badge.svg)
+[![codecov](https://codecov.io/gh/katerine-dev/abjDash/branch/master/graph/badge.svg?token=JKAO8JGEHX)](https://codecov.io/gh/katerine-dev/abjDash)
+[![R
+update-tests](https://github.com/abjur/abjDash/workflows/update-tests/badge.svg)](https://github.com/abjur/abjDash/actions)
 <!-- badges: end -->
 
 ### Utilidades ABJ
@@ -63,8 +65,6 @@ abjDash::reais(c(1, 2, 3, 4, 4, 6))
 ``` r
 library(magrittr)
 library(ggplot2)
-#> Warning in register(): Can't find generic `scale_type` in package ggplot2 to
-#> register S3 method.
 library(abjDash)
 
 mtcars %>% 
@@ -98,4 +98,4 @@ abjDash::template_app_server()
 
 O sistema de gerenciamento de conteúdo `{abjDash}` é licenciado sob os
 termos da [MIT + file
-LICENSE](https://github.com/abjur/abjDash/blob/master/LICENSE)
+LICENSE](https://github.com/abjur/abjDash/blob/master/LICENSE).
