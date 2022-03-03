@@ -96,4 +96,4 @@ abjDash::template_app_server()
 
 O sistema de gerenciamento de conteúdo `{abjDash}` é licenciado sob os
 termos da [MIT + file
-LICENSE](https://github.com/abjur/abjDash/blob/master/LICENSE)
+LICENSE](https://github.com/abjur/abjDash/blob/master/LICENSE) .
